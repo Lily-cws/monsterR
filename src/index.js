@@ -2,11 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+// import './KeeperApp/KeeperStyle.css';
+// import KeeperApp from "./KeeperApp/KeeperApp";
 import reportWebVitals from './reportWebVitals';
 
+
+// React V17
+// ReactDom.render(what to render, where to render)
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById("root");
+// )
+
+
+// React V18
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/*<KeeperApp />*/}
     <App />
   </React.StrictMode>
 );
